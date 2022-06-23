@@ -53,4 +53,3 @@ function vergleich(buch1,buch2){
     }
     return 0
 }
-//selber
