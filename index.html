@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <title>Buchladen!</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 <body>
-<button onclick="init()">init</button>
-<button onclick="lagerListe()">Lagerliste</button>
-<button onclick="sortieren()">sortieren</button>
-<button onclick="titelSuchen()">lager checken</button>
+<!-- Accent-colored raised button with ripple -->
+<button id="btnInit" onclick="init()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+    init
+</button>
+<!-- Accent-colored raised button with ripple -->
+<button id="btnLagerListe" onclick="lagerListe()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+    Lagerliste
+</button>
+<!-- Accent-colored raised button with ripple -->
+<button id="btnSortieren" onclick="sortieren()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+    sortieren
+</button>
+<!-- Accent-colored raised button with ripple -->
+<button id="btnTitelSuchen" onclick="titelSuchen()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+    lager checken
+</button>
 </body>
 </html>
