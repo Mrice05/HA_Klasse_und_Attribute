@@ -53,11 +53,6 @@ function vergleich(buch1,buch2){
     }
     return 0
 }
-function lagerListeTitel(){
-    for (let i = 0; i < lager.length; i++) {
-        console.log(this.Titel)
-    }
-}
 
 function titelSuchen(titel){
     for (let i = 0; i < lager.length; i++){
@@ -65,5 +60,3 @@ function titelSuchen(titel){
         console.log(this.Anzahl)
     }
 }
-
-titelSuchen("Der Schimmelreiter")
