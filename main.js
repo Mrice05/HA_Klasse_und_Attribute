@@ -53,3 +53,9 @@ function vergleich(buch1,buch2){
     }
     return 0
 }
+
+function titelSuchen(DerSchimmelreiter){
+    if(lager.includes(DerSchimmelreiter)){
+        console.log(this.Anzahl)
+    }
+}
