@@ -27,7 +27,7 @@ let lager = []
 function init() {
     let buch = new Buch("Grün", "Der Schimmelreiter", "Theodor Sturm", "2,99€", 7)
     lager.push(buch)
-    buch = new Buch("Rot", "Maria Stuart", "Friedrich Schiller", "2,99€",10)
+    buch = new Buch("Rot", "MariaStuart", "Friedrich Schiller", "2,99€",10)
     lager.push(buch)
     buch = new Buch("Gelb", "Nathan der Weise", "Gotthold Ephraim Lessing", "3,99€",6)
     lager.push(buch)
@@ -44,6 +44,7 @@ function lagerListe() {
 function sortieren(){
     lager.sort(vergleich)
 }
+
 function vergleich(buch1,buch2){
     if(buch1.Autor < buch2.Autor){
         return -1;
