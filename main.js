@@ -5,7 +5,7 @@ class Buch {
     Autor
     Preis
     Anzahl
-    constructor(Farbe, Titel, Autor, Preis, Anzahl){
+    constructor(Farbe, Titel,Autor, Preis, Anzahl){
         this.Farbe = Farbe
         this.Titel = Titel
         this.Autor = Autor

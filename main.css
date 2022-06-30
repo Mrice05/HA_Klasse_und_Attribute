@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to top left, rgb(50,50,50), rgb(65,65,65));
+}
+
+#btnInit {
+    background-color: white;
+    color: black;
+}
+
+#btnLagerListe {
+    background-color: white;
+    color: black;
+}
+
+#btnSortieren {
+    background-color: white;
+    color: black;
+}
+
+#btnTitelSuchen {
+    background-color: white;
+    color: black;
+}
