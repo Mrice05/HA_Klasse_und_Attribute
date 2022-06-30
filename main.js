@@ -1,13 +1,13 @@
 
 class Buch {
     Farbe
-    Name
+    Titel
     Autor
     Preis
     Anzahl
-    constructor(Farbe, Name,Autor, Preis, Anzahl){
+    constructor(Farbe, Titel, Autor, Preis, Anzahl){
         this.Farbe = Farbe
-        this.Name = Name
+        this.Titel = Titel
         this.Autor = Autor
         this.Preis = Preis
         this.Anzahl = Anzahl
@@ -52,4 +52,18 @@ function vergleich(buch1,buch2){
         return 1;
     }
     return 0
+}
+
+function lagerListeTitel(){
+    for (let i = 0; i < lager.length; i++) {
+        console.log(lager[i].Titel)
+    }
+}
+
+function titelSuchen(Titel) {
+    for (let i = 0; i < lager.length; i++) {
+        if(Titel === lager[i].Titel){
+            console.log(lager[i].Anzahl)
+        }
+    }
 }
